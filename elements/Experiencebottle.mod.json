@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 10,
+    "group": "",
+    "unlockingItems": [
+      "Items.NETHER_STAR"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      "Items.GLASS_BOTTLE",
+      "Items.NETHER_STAR",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "recipeReturnStack": "Items.EXPERIENCE_BOTTLE",
+    "name": "experiencebottle",
+    "namespace": "mod"
+  }
+}

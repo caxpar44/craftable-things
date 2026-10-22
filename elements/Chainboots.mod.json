@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      "Items.RAW_IRON"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "",
+      "",
+      "",
+      "Blocks.CHAIN",
+      "",
+      "Blocks.CHAIN",
+      "Blocks.CHAIN",
+      "",
+      "Blocks.CHAIN"
+    ],
+    "recipeReturnStack": "Items.CHAINMAIL_BOOTS",
+    "name": "chainboots",
+    "namespace": "mod"
+  }
+}

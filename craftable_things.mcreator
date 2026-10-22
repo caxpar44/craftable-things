@@ -1,0 +1,144 @@
+{
+  "mod_elements": [
+    {
+      "name": "TotemOfUndying",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totem_of_undying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/totem_of_undying.json",
+          "src/main/resources/data/craftable_things/advancement/recipes/totem_of_undying.json"
+        ]
+      }
+    },
+    {
+      "name": "Glowstonedust",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstonedust",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/glowstonedust.json"
+        ]
+      }
+    },
+    {
+      "name": "Chainhelmet",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainhelmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/chainhelmet.json",
+          "src/main/resources/data/craftable_things/advancement/recipes/chainhelmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Chainchestplate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainchestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/chainpants.json",
+          "src/main/resources/data/craftable_things/advancement/recipes/chainchestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Chainboots",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainboots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/chainboots.json",
+          "src/main/resources/data/craftable_things/advancement/recipes/chainboots.json"
+        ]
+      }
+    },
+    {
+      "name": "Chainchestplate2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chainchestplate_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/chainchestplate_2.json",
+          "src/main/resources/data/craftable_things/advancement/recipes/chainchestplate_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Experiencebottle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "experiencebottle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/craftable_things/recipe/experiencebottle.json",
+          "src/main/resources/data/craftable_things/advancement/recipes/experiencebottle.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/craftabletotemofundying/CraftableThingsModClient.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/event/BlockEvents.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/event/MiscEvents.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/event/ItemEvents.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/craftable_things.mixins.json",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/CraftableThingsMod.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/ExperienceOrbMixin.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/CommandsMixin.java",
+      "src/main/resources/META-INF/craftable_things.classtweaker",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/mixin/BoneMealItemMixin.java",
+      "src/main/java/net/mcreator/craftabletotemofundying/event/LivingEntityEvents.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "craftable_things",
+    "modName": "Craftable Things",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-26.1.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.craftabletotemofundying"
+  },
+  "mcreatorVersion": 202600233518
+}

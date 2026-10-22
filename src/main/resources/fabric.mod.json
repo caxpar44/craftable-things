@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "craftable_things",
+  "version": "1.0.0",
+  "name": "Craftable Things",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.craftabletotemofundying.CraftableThingsMod"
+    ],
+    "client": [
+      "net.mcreator.craftabletotemofundying.CraftableThingsModClient"
+    ]
+  },
+  "mixins": [
+    "craftable_things.mixins.json"
+  ],
+  "accessWidener": "META-INF/craftable_things.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

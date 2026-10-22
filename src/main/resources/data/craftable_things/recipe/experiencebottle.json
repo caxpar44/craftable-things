@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:nether_star"
+  ],
+  "result": {
+    "id": "minecraft:experience_bottle",
+    "count": 10
+  }
+}
